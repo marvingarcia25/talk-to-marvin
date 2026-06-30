@@ -41,7 +41,7 @@ export class Avatar {
   private raf = 0
 
   constructor(
-    private canvas: HTMLCanvasElement,
+    canvas: HTMLCanvasElement,
     private img: CanvasImageSource,
     private regions: FaceRegions,
   ) {
